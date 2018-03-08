@@ -1,6 +1,8 @@
 html,
 body {
-    height: 100%;
     width: 100%;
-    background-color: green;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(80, 80, 80, 0.8);
 }

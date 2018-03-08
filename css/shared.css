@@ -1,7 +1,36 @@
 html,
 body {
-  height: 100%;
   width: 100%;
-  background-color: green; }
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(80, 80, 80, 0.8); }
+
+.loader {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 3px inset lime;
+  border-right: 3px solid white; }
+
+.spin {
+  -webkit-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 /*# sourceMappingURL=shared.css.map */
