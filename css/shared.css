@@ -10,6 +10,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: rgba(80, 80, 80, 0.8); }
 
+.hidden {
+  display: none; }
+
 .loader {
   width: 5em;
   height: 5em;

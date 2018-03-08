@@ -1,3 +1,4 @@
 $(document).ready(function () {
-    console.log('ready to roll, captain');
+    // when content loads, fade out loader--intro
+    $('.loader--intro').fadeOut(1500);
 });
